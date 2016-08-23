@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "228261734151",
+    "firebase_url": "https://parkpdi-8f1f4.firebaseio.com",
+    "project_id": "parkpdi-8f1f4",
+    "storage_bucket": "parkpdi-8f1f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228261734151:android:25df68a7120ca472",
+        "android_client_info": {
+          "package_name": "tribond.parkpdi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228261734151-5l9ch3p208o8gkqebu4833nrmb2a9kb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tribond.parkpdi",
+            "certificate_hash": "7038FF843797523BA2A1B80195F6199DB8C66A6B"
+          }
+        },
+        {
+          "client_id": "228261734151-sbb631lgl28k5o4aqlkl1vi5ifj5hvic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEvC2qmunYNFB3dYXBy149ilCoh7ph5II"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228261734151-sbb631lgl28k5o4aqlkl1vi5ifj5hvic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

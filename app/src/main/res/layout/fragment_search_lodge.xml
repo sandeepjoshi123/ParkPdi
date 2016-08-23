@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_margin"
+        android:background="@drawable/edit_back"
+        android:hint="Enter serial number"
+        android:padding="@dimen/common_margin" />
+
+    <LinearLayout
+        android:id="@+id/dashboard"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tab_bar"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btn_add_audio"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:drawableTop="@drawable/add_audio"
+            android:text="Add Audio" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/tab_v_line" />
+
+        <Button
+            android:id="@+id/btn_add_photo"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:drawableTop="@drawable/add_photo"
+            android:text="Add Photo" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/tab_v_line" />
+
+        <Button
+            android:id="@+id/btn_add_Notes"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:drawableTop="@drawable/add_note"
+            android:text="Add Notes" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/tab_v_line" />
+
+        <Button
+            android:id="@+id/btn_add_video"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85"
+            android:background="@null"
+            android:drawableTop="@drawable/add_video"
+            android:text="Add Video" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_park"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/dashboard"
+        android:layout_below="@id/et_search"
+        android:layout_marginTop="@dimen/common_margin"
+        android:orientation="vertical">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
+
+
+

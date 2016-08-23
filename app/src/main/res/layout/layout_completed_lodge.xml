@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/check_header_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lodge Street wall"
+        android:textColor="@color/style_color"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:text="Serial No : ldg6765" />
+
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_serial"
+        android:text="Size : 2500 sqf" />
+
+
+    <TextView
+        android:id="@+id/tv_prize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_serial"
+        android:text="250£" />
+
+
+</RelativeLayout>

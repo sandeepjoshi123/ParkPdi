@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp">
+
+    <RelativeLayout
+        android:id="@+id/mainView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/pic_round"
+        android:padding="@dimen/mini_common_margin">
+
+        <ImageView
+            android:id="@+id/addImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-14dp"
+        android:layout_toRightOf="@id/mainView"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/delete" />
+
+
+</RelativeLayout>

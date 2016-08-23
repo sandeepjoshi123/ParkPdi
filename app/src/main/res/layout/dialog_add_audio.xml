@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tv_title"
+            style="@style/et_audio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_margin"
+            android:background="@drawable/edit_back_lodge"
+            android:hint="enter audio title"
+            android:padding="@dimen/common_margin" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_record"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_head"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3.2">
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mini_common_margin"
+            android:background="@null"
+            android:drawableTop="@drawable/record_btn"
+            android:text="Record"
+            android:textSize="11dp" />
+
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mini_common_margin"
+            android:layout_marginTop="@dimen/mini_common_margin"
+            android:background="@null"
+            android:drawableTop="@drawable/stop_btn"
+            android:text="Stop"
+            android:textSize="11dp" />
+
+
+        <Button
+            android:id="@+id/btn_playl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mini_common_margin"
+            android:background="@null"
+            android:drawableTop="@drawable/play_btn"
+            android:text="Play Back"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_record"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_apply"
+            android:layout_margin="@dimen/common_margin"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:minHeight="0dp"
+            android:padding="@dimen/mini_common_margin"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_apply"
+            style="@style/small_btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_record"
+            android:layout_margin="@dimen/common_margin"
+            android:layout_weight="3"
+            android:background="@color/colorAccent"
+            android:minHeight="0dp"
+            android:padding="@dimen/mini_common_margin"
+            android:text="Add Audio"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>
